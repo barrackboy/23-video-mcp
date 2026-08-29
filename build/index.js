@@ -284,7 +284,7 @@ server.tool("search_site", "Search across the whole TwentyThree site — videos,
         return {
             content: [{ type: "text", text: JSON.stringify(response.data) }],
         };
-    }
+    } 
     catch (error) {
         return {
             isError: true,
