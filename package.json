@@ -2,10 +2,12 @@
   "name": "twentythree-mcp-server",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
+  "main": "build/src/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node build/index.js",
+    "start": "node build/src/index.js",
+    "start:stdio": "node build/src/index.js",
+    "dev:http": "npm run build && node build/src/local-http.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
