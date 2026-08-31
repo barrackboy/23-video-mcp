@@ -3,7 +3,7 @@
 An MCP server exposing TwentyThree video-platform tools (search, transcripts,
 metadata updates, channels, analytics) over the MCP **Streamable HTTP**
 transport, deployable as a Vercel serverless function.
-
+ 
 ## Structure
 
 - `src/server.ts` — tool definitions, shared by both transports.
