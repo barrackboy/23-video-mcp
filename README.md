@@ -71,4 +71,4 @@ Point a stdio-based MCP client (e.g. Claude Desktop) at
 `.env` must never be committed — it holds live OAuth credentials. If it was
 ever committed to this repo's git history, rotate the TwentyThree consumer
 key/secret and access token/secret, then scrub the history (e.g. with
-`git filter-repo`) before treating the repo as safe to share.
+`git filter-repo`) before treating the repo as safe to share. 
